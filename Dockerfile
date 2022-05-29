@@ -9,7 +9,7 @@ WORKDIR /home/user/app
 # Installing required system depencies
 
 RUN apt-get update && apt-get install gcc build-essential libpq-dev -y && \
-    python3 -m pip install --no-cache-dir pip-tools
+    python3 -m pip install --no-cache-dir pip-tools 
 
 
 # Install python dependencies

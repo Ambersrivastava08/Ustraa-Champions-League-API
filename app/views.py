@@ -253,7 +253,7 @@ class GroupSaveAPI(APIView):
         
         except Exception as e:
             return Response({'status': False, 'message': str(e)},
-                            status=status.HTTP_400_BAD_REQUEST)
+                            status=status.HTTP_400_BAD_REQUEST) 
 
  
 

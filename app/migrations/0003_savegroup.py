@@ -19,4 +19,4 @@ class Migration(migrations.Migration):
                 ('team_name', models.ManyToManyField(to='club.Team')),
             ],
         ),
-    ]
+    ] 

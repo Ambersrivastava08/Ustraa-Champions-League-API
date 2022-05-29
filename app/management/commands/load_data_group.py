@@ -47,4 +47,4 @@ class Command(BaseCommand):
             """
             Call the function to import data
             """
-            self.import_data_group()
+            self.import_data_group() 

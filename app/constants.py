@@ -32,7 +32,7 @@ STATE_CHOICES = (
    ("TN","Tamil Nadu"),
    ("TR","Tripura"),
    ("UP","Uttar Pradesh"),
-   ("UK","Uttarakhand"),
+   ("UK","Uttarakhand"), 
    ("WB","West Bengal")
 )
 

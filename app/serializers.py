@@ -25,4 +25,4 @@ class TeamSerializer(serializers.ModelSerializer):
     
     def update(self, validated_data):
         team_obj = Team.objects.get(club_name=validated_data['club_name'])
-        return Team.objects.filter(club_name=validated_data['club_name']).update(**validated_data)
+        return Team.objects.filter(club_name=validated_data['club_name']).update(**validated_data) 
